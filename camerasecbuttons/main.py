@@ -46,7 +46,7 @@ def email_alert(subject, body, to):
     msg['to'] = to
 
 
-    #you have to find the follow from Gmail API
+ 
     user = "Insert your mail"
     password = "insert your password"
     
