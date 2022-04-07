@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
                         winsound.PlaySound("alert.wav", winsound.SND_ASYNC | winsound.SND_ALIAS )
                     if notification == ("yes"):
-                        email_alert("ALERT", "Open Dropbox", 'the mail that you want to receive the notification')
+                        email_alert("ALERT", "Open OneDrive", 'the mail that you want to receive the notification')
             elif detection:
                 if timer_started:
                     if time.time() - detection_stopped_time >= SECONDS_TO_RECORD_AFTER_DETECTION:
