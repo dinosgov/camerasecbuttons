@@ -73,9 +73,8 @@ if __name__ == "__main__":
         response3 = messagebox.askyesno('NOTIFICATION','Do you want mail notification?')
         if response3 == 1:
             notification = 'yes'
-            
         else:
-            pass
+            notification = 'no'
             
         while True:
             _, frame = cap.read()
